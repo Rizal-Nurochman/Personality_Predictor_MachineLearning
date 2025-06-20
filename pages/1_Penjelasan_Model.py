@@ -42,7 +42,7 @@ Dataset ini memiliki 8 kolom, dengan fitur-fitur sebagai berikut:
 Berikut adalah 5 baris pertama dari dataset:
 """)
 try:
-    df = pd.read_csv("data/personality_datasert.csv")
+    df = pd.read_csv("C:\MachineLearningProject\DATA\personality_datasert.csv")
     st.dataframe(df.head())
 except FileNotFoundError:
     st.error("File dataset 'personality_datasert.csv' tidak ditemukan di folder 'data/'.")
